@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A1A1A1"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="360dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="100dp"
+        android:background="#E5E5E5"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="USAE와 연결중입니다\n잠시만 기다려주세요"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+    <ImageButton
+        android:id="@+id/recordButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="90dp"
+        android:background="@null"
+        android:src="@drawable/un_button" />
+
+</RelativeLayout>

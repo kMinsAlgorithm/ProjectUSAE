@@ -4,38 +4,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    android:gravity="center_vertical|center_horizontal"
+    android:background="@color/black">
 
     <TextView
-        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="50dp"
-        android:text="음성 녹음 시작"
-        android:textSize="24sp" />
+        android:text="Self-Driving \nVoice Control"
+        android:textColor="#8EBBE5"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:textStyle="bold|italic" />
 
-    <Button
-        android:id="@+id/recordButton"
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="50dp"
-        android:text="녹음 시작" />
-
-    <EditText
-        android:id="@+id/contentsTextView"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:layout_marginBottom="5dp"
-        android:layout_weight="1"
-        android:background="@color/white"
-        android:ems="10"
-        android:gravity="center_horizontal|center_vertical"
-        android:hint="내용"
-        android:inputType="textMultiLine"
-        android:lines="8"
-        android:maxLines="100"
-        android:padding="5dp" />
+        android:text=" @MJU Capstone Design Project"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_marginTop="400dp"
+        android:textSize="12dp"
+        android:textStyle="bold|italic" />
 
 </LinearLayout>
