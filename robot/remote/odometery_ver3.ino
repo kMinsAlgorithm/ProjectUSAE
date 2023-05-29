@@ -141,19 +141,19 @@ void loop() {
     Serial.println(text);
      if (strcmp(text, "high") == 0) {
       Serial.println("front");
-      calc_speed(1,0,0);
+      calc_speed(0,1,0);
     }
     else if (strcmp(text, "low") == 0) {
       Serial.println("back");
-      calc_speed(-1,0,0);
+      calc_speed(0,-1,0);
     }
     else if (strcmp(text, "left") == 0) {
       Serial.println("left1");
-      calc_speed(0,1,0);
+      calc_speed(1,0,0);
     }
     else if (strcmp(text, "right") == 0) {
       Serial.println("right1");
-      calc_speed(0,-1,0);
+      calc_speed(-1,0,0);
     }
     else if (strcmp(text, "rightcorner") == 0) {
       Serial.println("rightcorner");
