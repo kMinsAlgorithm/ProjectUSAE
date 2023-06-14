@@ -7,10 +7,10 @@
 
 ### PART 1. ROBOT
 
-[] Cartographer SLAM 구현
+[ ] Cartographer SLAM 구현
 [X] 본체 설게
-[] 3 omni wheel bidirectional 구동 방식 구현
-[] Navigation 구현
+[ ] 3 omni wheel bidirectional 구동 방식 구현
+[ ] Navigation 구현
 
 ### PART 2. APPLICATION
 
@@ -24,4 +24,3 @@
 
 
 #해당 프로젝트는 4학년 1학기 캡스톤 디자인 주제인 실내자율 주행 로봇. 프로젝트 USAE 관련 파일들을 업로드해두는 곳입니다.
->>>>>>> 85c528634263c5577a5131339f914b94cffa9339
